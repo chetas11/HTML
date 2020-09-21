@@ -15,6 +15,17 @@
   margin-top: 130px;
 }
 
+h1,
+p {
+  color: #393e46;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  color: #393e46;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 img {
   position: absolute;
   border-radius: 50%;
@@ -35,6 +46,7 @@ img {
 
 .title-name {
   padding: 0%;
+  color: black;
   margin: 0%;
   font-size: 3rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -73,6 +85,115 @@ i {
   border-radius: 50px;
   font-size: 3rem;
   color: black;
-  background-color: #ffac41;
   margin: 10px;
+}
+
+.small-txt {
+  margin: 0%;
+  padding: 0%;
+}
+
+.designation {
+  margin-bottom: 0%;
+}
+
+span {
+  margin-left: 300px;
+}
+
+.skill-table tr {
+  width: 100px;
+}
+
+table hr {
+  border: none;
+}
+
+td {
+  padding: 0%;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.skills {
+  margin-left: 170px;
+}
+
+.js hr {
+  width: 200px;
+  height: 8px;
+  background: linear-gradient(to right, #ffcc00 60%, #e0e0ec 70%);
+}
+
+.mongo hr {
+  width: 200px;
+  height: 8px;
+  background: linear-gradient(to right, #ffcc00 60%, #e0e0ec 70%);
+}
+
+.deploy hr {
+  width: 200px;
+  height: 8px;
+  background: linear-gradient(to right, #ffcc00 90%, #e0e0ec 95%);
+}
+
+.css hr {
+  width: 200px;
+  height: 8px;
+  background: linear-gradient(to right, #ffcc00 60%, #e0e0ec 70%);
+}
+.html hr {
+  width: 200px;
+  height: 8px;
+  background: linear-gradient(to right, #ffcc00 40%, #e0e0ec 50%);
+}
+
+.react hr {
+  width: 200px;
+  height: 8px;
+  background: linear-gradient(to right, #ffcc00 40%, #e0e0ec 50%);
+}
+
+.redux hr {
+  width: 200px;
+  height: 8px;
+  background: linear-gradient(to right, #ffcc00 60%, #e0e0ec 70%);
+}
+
+.pm hr {
+  width: 200px;
+  height: 8px;
+  background: linear-gradient(to right, #ffcc00 90%, #e0e0ec 95%);
+}
+
+.recruit hr {
+  width: 200px;
+  height: 8px;
+  background: linear-gradient(to right, #ffcc00 60%, #e0e0ec 70%);
+}
+
+.business hr {
+  width: 200px;
+  height: 8px;
+  background: linear-gradient(to right, #ffcc00 90%, #e0e0ec 95%);
+}
+.edit hr {
+  width: 200px;
+  height: 8px;
+  background: linear-gradient(to right, #ffcc00 60%, #e0e0ec 70%);
+}
+
+.fund hr {
+  width: 200px;
+  height: 8px;
+  background: linear-gradient(to right, #ffcc00 90%, #e0e0ec 95%);
+}
+
+.vl {
+  border-left: 3px solid lightgrey;
+  height: 145vh;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 350px;
 }

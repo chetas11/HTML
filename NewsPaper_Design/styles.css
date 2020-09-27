@@ -46,9 +46,9 @@ footer .container {
   font-size: 220%;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 768px) {
     .top-heading {
-      font-size: 200%;
+      font-size: 150%;
     }
 
     .top-img,
@@ -58,7 +58,7 @@ footer .container {
 }
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 800px) {
     .top-heading {
       font-size: 180%;
     }

@@ -3,10 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lato&family=Roboto+Slab:wght@500&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/d2ae1bcb75.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -16,17 +21,34 @@
   </head>
   <body>
     <div class="container mt-3">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="./index.html"
+          ><i class="fas fa-cloud-sun"></i
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="./index.html">Home</a>
+            <a class="nav-link" href="page2.html">Page 2</a>
+            <a class="nav-link active" href="page3.html"
+              >Page 3<span class="sr-only">(current)</span></a
+            >
+          </div>
+        </div>
+      </nav>
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-6">
-          <div class="row mb-1">
-            <div class="col-lg-2 col-md-2">
-              <a href="page2.html">Previous </a>
-            </div>
-            <div class="col-lg-9 col-md-9"></div>
-            <div class="col-lg-1 col-md-1">
-              <a href="index.html">Home </a>
-            </div>
-          </div>
+          <br />
           <hr class="hr-line" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia rem
@@ -154,7 +176,7 @@
             currently used as brain-machine interfaces.
           </p>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6">
+        <div id="para-2" class="col-lg-4 col-md-4 col-sm-6">
           <hr class="hr-line" />
           <p class="headings" style="color: red; text-align: center">
             “Wait until you see the next version vs what was presented last
@@ -178,20 +200,49 @@
             presentation.
           </p>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6">
+        <div id="Elon" class="col-lg-4 col-md-4 col-sm-6">
           <img class="img-fluid" src="./images/Elon-Musk.png" alt="" />
         </div>
       </div>
-      <hr class="hr-line mt-3" />
-      <div class="row mb-5">
-        <div class="col-lg-2 col-md-2">
-          <a href="page2.html">Previous </a>
-        </div>
-        <div class="col-lg-9 col-md-9"></div>
-        <div class="col-lg-1 col-md-1">
-          <a href="index.html">Home</a>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>Amazon</p>
+          </div>
+          <div class="col">
+            <p>CEO</p>
+          </div>
+          <div class="col">
+            <p>Bezos</p>
+          </div>
+          <div class="col">
+            <p>Bezos</p>
+          </div>
+          <div class="col-7">
+            <p>Amazon Founder and CEO Jeff Bezos has become</p>
+          </div>
+          <div class="col-1">
+            <p>Exit</p>
+          </div>
         </div>
       </div>
-    </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

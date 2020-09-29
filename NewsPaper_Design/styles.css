@@ -1,5 +1,21 @@
-.main {
-  background-color: #e8e8e8;
+p {
+  font-size: 80%;
+  color: #393e46;
+  font-family: "Lato", sans-serif;
+}
+
+footer .container {
+  background-color: BLACK;
+}
+
+footer p {
+  color: aliceblue;
+}
+
+/* classes */
+
+.container {
+  border: 1px solid lightslategray;
 }
 
 .center {
@@ -8,32 +24,25 @@
   align-items: center;
 }
 
-.hr-line {
-  border: 1px solid black;
-  margin: 0%;
-}
-
-p {
-  font-size: 80%;
-}
-
-.headings {
-  font-size: 100%;
-  font-weight: bolder;
-}
-
 .box {
   border: 1px solid black;
   padding: 2%;
 }
 
-footer .container {
-  background-color: BLACK;
-  color: aliceblue;
-}
-
 .nav {
   color: #e8e8e8;
+}
+
+.hr-line {
+  border: 1px solid black;
+  margin: 0%;
+}
+
+.headings {
+  font-size: 100%;
+  font-weight: bolder;
+  color: #222831;
+  font-family: "Roboto Slab", serif;
 }
 
 .top-heading {
@@ -43,85 +52,39 @@ footer .container {
 }
 
 .next-heading {
-  font-size: 220%;
+  font-size: 180%;
+  font-family: "Inter", sans-serif;
 }
+
+/* Media Queries for Smaller Screen */
 
 @media only screen and (max-width: 768px) {
-    .top-heading {
-      font-size: 150%;
-    }
+  .top-heading {
+    font-size: 150%;
+  }
 
-    .top-img,
-    .top-text{
-        display: none;
-    }
+  .top-img,
+  .top-text {
+    display: none;
+  }
 }
-
 
 @media only screen and (max-width: 1200px) {
-    .top-heading {
-      font-size: 180%;
-    }
-
-    .top-text{
-        font-size: 50%;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media only screen and (max-width: 770px) {
   .top-heading {
-    font-size: 200%;
-  }
-  p
- {
-    font-size: 30%;
+    font-size: 180%;
   }
 
-} */
-
-/* @media only screen and (max-width: 770px) {
-  p,
-  .headings {
-    font-size: 30%;
+  .top-text {
+    font-size: 50%;
   }
 }
 
-@media only screen and (max-width: 450px) {
-  p,
-  .headings {
-    font-size: 20%;
+@media only screen and (max-width: 500px) {
+  #Elon {
+    order: 1;
+  }
+
+  #para-2 {
+    order: 2;
   }
 }
-
-@media only screen and (max-width: 450px) {
-  .top-heading {
-    font-size: 120%;
-  }
-}
-
-@media only screen and (max-width: 370px) {
-  p,
-  .headings {
-    font-size: 8%;
-  }
-}
-
-@media only screen and (max-width: 370px) {
-  .top-heading {
-    font-size: 40%;
-  }
-} */ */

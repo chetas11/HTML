@@ -10,7 +10,11 @@
 - Bootstrap
 
 
- #### Screenshot - 
+ #### Large Device - 
+
+![Screenshot](https://github.com/chetas11/FetchGitHubUsers/blob/master/Screenshot_2020-12-21%20Document.png)
+
+ #### Small Device - 
 
 ![Screenshot](https://github.com/chetas11/FetchGitHubUsers/blob/master/Screenshot_2020-12-21%20Document.png)
 

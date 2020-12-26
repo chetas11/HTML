@@ -5,17 +5,15 @@
 #### Working Link Deployed using Netlify - https://news-paper-design.netlify.app/
 
 #### Languages used
+
 - HTML
 - CSS
 - Bootstrap
 
+#### Large Device -
 
- #### Large Device - 
+![Screenshot](https://github.com/chetas11/HTML/blob/master/NewsPaper_Design/LargeDevice.png)
 
-![Screenshot](https://github.com/chetas11/FetchGitHubUsers/blob/master/Screenshot_2020-12-21%20Document.png)
+#### Small Device -
 
- #### Small Device - 
-
-![Screenshot](https://github.com/chetas11/FetchGitHubUsers/blob/master/Screenshot_2020-12-21%20Document.png)
-
-
+![Screenshot](https://github.com/chetas11/HTML/blob/master/NewsPaper_Design/SmallerDevices.png)
